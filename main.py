@@ -30,48 +30,43 @@ if __name__ == '__main__':
     #      print(students)                         # виведе інформацію про кожного студента. Є він чи немає.
 
 
-    # МЕТОД ДЛЯ ВИВОДУ КІЛЬКОСТІ СТУДЕНТІВ ПРИСУТНІХ І ЗАГАЛЬНОЇ КІЛ-ТІ ВІДСУТНІХ. Створюємо лічильник.
-    present_count = 0
-    for student in students:
-        present_choice = input(f"Чи є {student['name']} на занятті (Y/N): ")
 
-        if present_choice.lower() == "y":
-            student['present'] = True
-            present_count += 1
-        else:
-            student['present'] = False
+   # МЕТОД ДЛЯ ВИВОДУ КІЛЬКОСТІ СТУДЕНТІВ ПРИСУТНІХ І ЗАГАЛЬНОЇ КІЛ-ТІ ВІДСУТНІХ. Створюємо лічильник.
 
-    print(f"Присутні {present_count}. Відсутні: {len(students) - present_count}")
-
-
-
-
+    # present_count = 0
+    # for student in students:
+    #     present_choice = input(f"Чи є {student['name']} на занятті (Y/N): ")
+    #
+    #     if present_choice.lower() == "y":
+    #         student['present'] = True
+    #         present_count += 1
+    #     else:
+    #         student['present'] = False
+    #
+    # print(f"Присутні {present_count}. Відсутні: {len(students) - present_count}")
 
 
+    # Для того щоб проробити щось певну к-ть разів використ.:
+    # for item in range(10):
+    #     print(item)
 
+    # # Для того щоб робити зчитування з певним кроком:
+    # for item in range(2, 10, 2):  # перше число з якого старт; друге - к-ть; третє-крок
+    #  print(item)
 
-
-
-
-
-
-
-    # for i in range(len(students)):
-    #     print(students[i])
-
-
-    # count_new_student = int(input("Скільки студентів додати: "))
-    # for i in range(2):
+    # # Добавляємо студентів  в список (формуємо frame):
+    # count_new_student = int(input("Скільки студентів хочете додати: "))
+    # for i in range(count_new_student):
     #     name_student = input("Введіть імя студента: ")
     #     frame_student = {
     #         "name": name_student,
     #         "present": None
     #     }
-    #         student.append(frame_student)
-    #     print(student)
-
-
-
+    #     students.append(frame_student)
+    #     print(students)
+    #
+    #
+    #
     # count_delete_student = int(input("Скільки студентів вилучити: "))
     # for i in range(2):
     # name_student = input("Введіть імя студента: ")
@@ -83,13 +78,15 @@ if __name__ == '__main__':
     # print(student)
 
 
-    # a = 0
-    # while a < 10:
-    #     a += 1
-    #     if a <= 10:
-    #      print(a)
-    #
-    #
+
+
+    a = 0
+    while a < 10:
+        a += 1
+        if a <= 10:
+         print(a)
+
+
     # a = True
     # b = 0
     # while a:
