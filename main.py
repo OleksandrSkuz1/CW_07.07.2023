@@ -1,19 +1,19 @@
 if __name__ == '__main__':
-    students = [
-        {                           # [{}] - створюємо словник із списком учнів
-            "name":"John",
-            "present": None         # присутність None(невизначена, тому що ми їх ще не відмічали)
-        },
-
-        {
-            "name":"Jerry",
-            "present": None
-        },
-        {
-            "name": "Jane",
-            "present": None
-        }
-    ]
+    # students = [
+    #     {                           # [{}] - створюємо словник із списком учнів
+    #         "name":"John",
+    #         "present": None         # присутність None(невизначена, тому що ми їх ще не відмічали)
+    #     },
+    #
+    #     {
+    #         "name":"Jerry",
+    #         "present": None
+    #     },
+    #     {
+    #         "name": "Jane",
+    #         "present": None
+    #     }
+    # ]
 
     # print(student['name'])        # для того щоб вивести [імя] кожного студента
     # print({student['name']}       # для того щоб вибрати [імя] кожного студента із {масиву}
@@ -80,11 +80,11 @@ if __name__ == '__main__':
 
 
 
-    a = 0
-    while a < 10:
-        a += 1
-        if a <= 10:
-         print(a)
+    # a = 0
+    # while a < 10:
+    #     a += 1
+    #     if a <= 10:
+    #      print(a)
 
 
     # a = True
